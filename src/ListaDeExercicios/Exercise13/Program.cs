@@ -11,11 +11,7 @@ for(int i = number; i != 1; i--)
     Console.WriteLine(result);
     result = result * (i - 1);
 }
-// 5 4 3 2 1
-// 5 * 4 = 20 // result * i
-// 20 * 3 = 60 // result * i
-// 60 * 2 = 120 // result * i
-// 120 * 1, unnecessary
+
 
 
 

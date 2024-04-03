@@ -2,9 +2,13 @@
 
 int number = 1;
 
-while (number < 100)
+while (number <= 100)
 {
-    if (number % 3 == 0)
+    if (number % 3 == 0 && number % 5 == 0)
+    {
+        Console.WriteLine("FizzBuzz");
+    }
+    else if (number % 3 == 0)
     {
         Console.WriteLine("Fizz");
     }
